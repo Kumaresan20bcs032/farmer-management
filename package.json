@@ -1,0 +1,35 @@
+{
+  "name": "farmer-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon --env-file=.env src/index.js",
+    "start": "node --env-file=.env src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumaresan20bcs032/farmer-management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kumaresan20bcs032/farmer-management/issues"
+  },
+  "homepage": "https://github.com/Kumaresan20bcs032/farmer-management#readme",
+  "dependencies": {
+    "cli-color": "^2.0.4",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "hash": "^0.2.1",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "mongoose-paginate-v2": "^1.9.1",
+    "nodemon": "^3.1.10"
+  }
+}
